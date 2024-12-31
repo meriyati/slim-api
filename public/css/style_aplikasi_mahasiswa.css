@@ -1,0 +1,47 @@
+
+/* style_aplikasi_mahasiswa.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .btn {
+    color: #ffffff;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Container styling */
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Button hover effects */
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}

@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Warna latar belakang yang lembut */
+    color: #212529;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff; /* Warna biru untuk navbar */
+}
+
+.navbar .navbar-brand, 
+.navbar .nav-link {
+    color: #fff; /* Warna putih untuk teks navbar */
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #d4d4d4; /* Warna abu-abu muda saat hover */
+}
+
+/* Button Logout */
+button.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.btn-danger:hover {
+    background-color: #b02a37;
+    transform: scale(1.05);
+}
+
+/* Container */
+.container h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.container p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+}
